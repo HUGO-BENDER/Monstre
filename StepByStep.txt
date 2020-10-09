@@ -1,0 +1,46 @@
+cmd
+Step 000: 
+	reinstall node
+	reinstall angular-cli
+	
+GIT	
+Step 001: 
+	Create repository
+
+cmd 
+Step 002:
+Create project
+	ir al directorio de nuestro codigo <C:\Users\hbender\Documents\Code>
+    ng new <project> --style=scss --routing --skipTests
+	ng new Monstre --style=scss --routing --skipTests
+
+VS Code.  	
+Step 003:
+	Open folder
+	new terminal
+	ng serve -o
+
+Step 004:
+	clean proyect
+	ng add @angular/material
+	ng add @angular/cdk
+	Ensure project dependencies are placed in package.json
+	Enable the BrowserAnimationsModule your app module
+	Add either a prebuilt theme or a custom theme
+	Add Roboto fonts to your index.html
+	Add the Material Icon font to your index.html
+	Add global styles to
+	Remove margins from body
+	Set height: 100% on html and body
+	Make Roboto the default font of your app
+
+	ng generate @angular/material:navigation navegacion
+	
+	
+Step 005:	
+link GIT
+	git remote add origin https://github.com/HUGO-BENDER/Monstre.git
+	git branch -M main
+	git push -u origin main
+	
+	

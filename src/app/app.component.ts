@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PizzarraComponent } from './pizzarra/pizzarra.component';
 
 @Component({
   selector: 'app-root',
